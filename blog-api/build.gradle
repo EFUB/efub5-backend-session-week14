@@ -3,7 +3,9 @@ plugins {
 }
 
 dependencies {
+    //blog-core 포함
     implementation project(':blog-core')
+
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
     compileOnly 'org.projectlombok:lombok'
